@@ -82,10 +82,7 @@ namespace Full_GRASP_And_SOLID
         public void Cook()
         {
             int time = GetCookTime();
-            
-            
-            timer.Register(time,cliente);
-            
+            adapter.RegisterNew(time);
             Cooked = true;
         }
     }
