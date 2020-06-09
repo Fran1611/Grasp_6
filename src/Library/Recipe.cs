@@ -16,9 +16,7 @@ namespace Full_GRASP_And_SOLID
         private bool cooked = false;
         public bool Cooked{get; private set;}
         public Product FinalProduct { get; set; }
-        private CountdownTimer timer = new CountdownTimer();
-
-        private TimerClient cliente;
+        public Adapter adapter = new Adapter();
         
         
 
